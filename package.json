@@ -1,0 +1,11 @@
+{
+  "name": "johnnys-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test-johnnys-compiler"
+  },
+  "author": "Johnny Poon",
+  "license": "ISC"
+}
