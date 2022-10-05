@@ -1,4 +1,4 @@
-const { tokenizer, parser, transformer, codeGenerator } = require("./johnnys-compiler");
+const { tokenizer, parser, transformer, codeGenerator } = require("./lisp-to-c-compiler");
 
 let log = console.log;
 

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test-johnnys-compiler"
+    "test": "node ./lisp-to-c.test"
   },
   "author": "Johnny Poon",
   "license": "ISC"
