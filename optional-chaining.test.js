@@ -1,9 +1,9 @@
-const { tokenizer, parser, transformer, codeGenerator } = require("./lisp-to-c-compiler");
+const { tokenizer, parser, transformer, codeGenerator } = require("./optional-chaining-compiler");
 
 let log = console.log;
 
-const input = '(add 2 (subtract 4 2))';
-const output = 'add(2, subtract(4, 2));';
+const input = 'let o = x?.y;';
+const output = 'let o = x && x.y;';
 
 let tokens = tokenizer(input);
 log(tokens);

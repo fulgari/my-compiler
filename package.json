@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./lisp-to-c.test"
+    "test": "node ./optional-chaining.test"
   },
   "author": "Johnny Poon",
   "license": "ISC"
