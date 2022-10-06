@@ -317,6 +317,11 @@ function transformer(ast) {
     return newAst;
 }
 
+/**
+ * From AST to string
+ * @param {*} node 
+ * @returns 
+ */
 function codeGenerator(node) {
     switch (node.type) {
         case "Program":
