@@ -1,4 +1,4 @@
-## Johnny's Compiler demo
+## My Compiler demo
 
 Basic babel principe exercise demo.
 
